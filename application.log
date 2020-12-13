@@ -1,0 +1,6 @@
+2020-12-13 13:01:04.648 [INFO] [restartedMain] [c.c.a.AddressBookAppApplication:55] Starting AddressBookAppApplication using Java 14 on DESKTOP-2STMROE with PID 1140 (D:\study\JavaEnterprise\AddressBookApp\target\classes started by YUDHAJIT in D:\study\JavaEnterprise\AddressBookApp)
+2020-12-13 13:01:04.650 [DEBUG] [restartedMain] [c.c.a.AddressBookAppApplication:56] Running with Spring Boot v2.4.1, Spring v5.3.2
+2020-12-13 13:01:04.651 [INFO] [restartedMain] [c.c.a.AddressBookAppApplication:664] The following profiles are active: prod
+2020-12-13 13:01:07.737 [WARN] [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:221] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-13 13:01:08.169 [INFO] [restartedMain] [c.c.a.AddressBookAppApplication:61] Started AddressBookAppApplication in 3.971 seconds (JVM running for 4.928)
+2020-12-13 13:01:08.172 [INFO] [restartedMain] [c.c.a.AddressBookAppApplication:15] Address Book App Started in PROD Environment

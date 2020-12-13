@@ -8,6 +8,9 @@ public class ContactData {
 	private String fullName;
 	private String phoneNo;
 	private String address;
+	private String city;
+	private String state;
+	private String zip;
 
 	public ContactData() {
 		// TODO Auto-generated constructor stub
@@ -18,6 +21,33 @@ public class ContactData {
 		this.fullName = contactDto.fullName;
 		this.phoneNo = contactDto.phoneNo;
 		this.address = contactDto.address;
+		this.city = contactDto.city;
+		this.state = contactDto.state;
+		this.zip = contactDto.zip;
+	}
+
+	public String getCity() {
+		return city;
+	}
+
+	public void setCity(String city) {
+		this.city = city;
+	}
+
+	public String getState() {
+		return state;
+	}
+
+	public void setState(String state) {
+		this.state = state;
+	}
+
+	public String getZip() {
+		return zip;
+	}
+
+	public void setZip(String zip) {
+		this.zip = zip;
 	}
 
 	public int getId() {
